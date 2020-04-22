@@ -68,7 +68,7 @@ LINSTOR is currently extended with the following plugins. Instructions on how to
 
 | Plugin | README |
 | ------ | ------ |
-| linstor-iscsi | [https://github.com/LINBIT/linstor-iscsi] |
+| linstor-iscsi | [LINSTOR ISCSI](https://github.com/LINBIT/linstor-iscsi) |
 
 
 ### Support
