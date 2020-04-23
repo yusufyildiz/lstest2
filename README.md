@@ -7,7 +7,7 @@
  
 # What is LINSTOR
 
-LINSTOR developed by LINBIT, is a software that manages replicated volumes across a group of machines. With native integration to Kubernetes, LINSTOR makes building, running, and controlling block storage simple. LINSTOR® is open-source software designed to manage block storage devices for large Linux server clusters. It’s used to provide persistent Linux block storage for [Kubernetes](https://www.linbit.com/kubernetes/), [Openstack](https://www.linbit.com/openstack/), [Open Nebula](https://www.linbit.com/opennebula/), [Openshift](https://www.linbit.com/openshift-persistent-container-storage-support/), [VMware](https://www.linbit.com/linstor-vsan-software-defined-storage-for-vmware%e2%80%8b/)   environments. 
+LINSTOR developed by LINBIT, is a software that manages replicated volumes across a group of machines. With native integration to Kubernetes, LINSTOR makes building, running, and controlling block storage simple. LINSTOR® is open-source software designed to manage block storage devices for large Linux server clusters. It’s used to provide persistent Linux block storage for cloudnative and hypervisor environments. 
 
 Historically LINSTOR started as a resource-file generator for [DRBD](https://www.linbit.com/drbd/) which conveniently also created LVM/ZFS volumes. By time LINSTOR steadily grew and got new features and drivers in both directions, south-bound like snapshots, LUKS, dm-cache, dm-writecache or nvme, and north-bound drivers for for [Kubernetes](https://www.linbit.com/kubernetes/), [Openstack](https://www.linbit.com/openstack/), [Open Nebula](https://www.linbit.com/opennebula/), [Openshift](https://www.linbit.com/openshift-persistent-container-storage-support/), [VMware](https://www.linbit.com/linstor-vsan-software-defined-storage-for-vmware%e2%80%8b/).
 
@@ -60,7 +60,7 @@ All communication between LINSTOR components uses LINSTOR’s own network protoc
 ## User Guide
 If you want to use all of the feature set that LINSTOR have (such as quorum, [DRBD](https://www.linbit.com/drbd/) replication etc), you will need at least 3 nodes to use LINSTOR. Linstor-controller and Linstor-client role should be installed on one node and all nodes should have linstor-satellite.
 
-LINSTOR can also perform disk operations without using [DRBD](https://www.linbit.com/drbd/). However, if replication with [DRBD](https://www.linbit.com/drbd/) is desired, [DRBD](https://www.linbit.com/drbd/) 9 must be installed on all servers. For [DRBD](https://www.linbit.com/drbd/) installation, please follow [this link](https://www.linbit.com/drbd-user-guide/drbd-guide-9_0-en/).
+LINSTOR can also perform disk operations without using [DRBD](https://www.linbit.com/drbd/). However, if replication with DRBD is desired, DRBD 9 must be installed on all servers. For DRBD installation, please follow [this link](https://www.linbit.com/drbd-user-guide/drbd-guide-9_0-en/).
 
 For a more detailed installation guide, please follow the link below.
 
