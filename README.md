@@ -32,15 +32,10 @@ All communication between LINSTOR components uses LINSTOR’s own network protoc
   - Compatible with high I/O workloads like databases
   - Storage tiering (multiple storage pools)
   - Choose your own Linux filesystem
+  - Rich set of [plugins](https://github.com/linbit/linstor-server/blob/master/README.md#plugins)
  
 
-- North-Bound
-  - Integration to Kubernetes through the CSI driver., External Provisioner, Docker and Proxmox VE
-  - Integration to Openshift
-  - Integration to VMware
-
-
-- South-Bound
+- Storage Related Features
   - Network replication through DRBD integration
   - LVM Snapshot Support
   - LVM Thin Provisioning Support
@@ -70,10 +65,14 @@ For a more detailed installation guide, please follow the link below.
 
 LINSTOR is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
-| Plugin | README |
+| Plugin | More Information |
 | ------ | ------ |
-| linstor-iscsi | https://github.com/LINBIT/linstor-iscsi |
-
+|ISCSI| https://github.com/LINBIT/linstor-iscsi |
+|Vsan|https://www.linbit.com/linstor-vsan-software-defined-storage-for-vmware%e2%80%8b/|
+|Openshift|https://www.linbit.com/openshift-persistent-container-storage-support/|
+|Open Nebula|https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#ch-opennebula-linstor|
+|Kubernetes|https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#ch-kubernetes|
+|Openstack|https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#ch-openstack-linstor|
 
 ## Support
 
