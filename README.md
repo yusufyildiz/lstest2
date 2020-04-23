@@ -19,7 +19,7 @@ LINSTOR system consists of multiple server and client components. A LINSTOR cont
 The storage system can be managed by directly using a command line utility to interact with the active LINSTOR controller. Alternatively, users may integrate the LINSTOR system into the storage architecture of other software systems, such as Kubernetes.
 All communication between LINSTOR components uses LINSTOR’s own network protocol, based on TCP/IP network connections.
 
- [![](https://github.com/yusufyildiz/lstest2/blob/master/How-It-Works2.png?raw=true)]()  [![](https://mldatnmifxoe.i.optimole.com/Q4Tiw9A-22SC98Y2/w:450/h:402/q:auto/https://www.linbit.com/wp-content/uploads/2020/03/unnamed.png)]()
+ [![](https://mldatnmifxoe.i.optimole.com/Q4Tiw9A-gKsTX1iL/w:450/h:636/q:auto/https://www.linbit.com/wp-content/uploads/2020/03/How-It-Works2.png)](https://www.linbit.com/linstor/)  [![](https://mldatnmifxoe.i.optimole.com/Q4Tiw9A-22SC98Y2/w:450/h:402/q:auto/https://www.linbit.com/wp-content/uploads/2020/03/unnamed.png)](https://www.linbit.com/linstor/)
 
 ## Features
 - Open Source
