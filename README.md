@@ -60,7 +60,7 @@ All communication between LINSTOR components uses LINSTOR’s own network protoc
 ## User Guide
 If you want to use all of the feature set that LINSTOR have (such as quorum, [DRBD](https://www.linbit.com/drbd/) replication etc), you will need at least 3 nodes to use LINSTOR. Linstor-controller and Linstor-client role should be installed on one node and all nodes should have linstor-satellite.
 
-LINSTOR can also perform disk operations without using [DRBD](https://www.linbit.com/drbd/). However, if replication with DRBD is desired, DRBD 9 must be installed on all servers. For DRBD installation, please follow [this link](https://www.linbit.com/drbd-user-guide/drbd-guide-9_0-en/).
+LINSTOR can also perform disk operations without using DRBD. However, if replication with DRBD is desired, DRBD 9 must be installed on all servers. For DRBD installation, please follow [this link](https://www.linbit.com/drbd-user-guide/drbd-guide-9_0-en/).
 
 For a more detailed installation guide, please follow the link below.
 
